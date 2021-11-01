@@ -28,7 +28,7 @@ module.exports = {
         // the only required plugin option for WordPress is the GraphQL url.
         url:
           process.env.WPGRAPHQL_URL ||
-          `https://api.tuktukpatrol.com/graphql`,
+          `https://api.example.com/graphql`,
         type: {
           __all: {
             limit: 150
